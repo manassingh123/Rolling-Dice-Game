@@ -1,0 +1,117 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+body
+{
+
+	font-family: sans-serif;
+	font-weight: 300;
+	height: 100vh;
+	background-color: #339393;
+	
+}
+
+.main
+{ 
+	background-color: #ea1175;
+	width:400px;
+	height: 450px;
+	top: 80px;
+	margin:5px auto;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+h2
+{
+	padding:15px 0px;
+	font-family: serif;
+	font-size: 35px;
+}
+.roll-dice
+{
+	margin-left: 120px;
+}
+h2,.btn
+{
+	text-align: center;
+}
+
+img
+{
+	height: 100px;
+	width: auto;
+	margin: 25px;
+}
+
+p
+{
+	margin: 5px 0px;
+	font-size: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.btn-roll,.btn-new
+{
+	border-radius: 20px;
+	font-size: 15px;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	border-style: none;
+}
+
+.btn-roll:hover
+{
+	background-color: #5eef90;
+}
+
+.btn-new:hover{
+	background-color: #5eef90;
+	border: none;
+}
+.player
+{
+	margin-left: 20px;
+}
+.player-score
+{
+	font-size: 20px;
+}
+
+.panal
+{
+	background-color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding: 12px 0;
+}
+.panal-1
+{
+	
+background-color: #fff;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	padding: 12px 0;
+}
+.current-score
+{
+	font-size: 20px;
+}
+
+.current-panal
+{
+	margin-right: 20px;
+	float: right;
+}
+.score-panal
+{
+	float: left;
+}
